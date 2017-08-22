@@ -1,11 +1,11 @@
 var nodemailer = require('nodemailer');
 
-const sender = 'paulo.dalmas@publicacoesonline.com.br';
-const pass = 'Inicial1';
+const sender = 'YourEmail';
+const pass = 'YourPassword';
 
 var enviarEmail = function() {
     var transporte = nodemailer.createTransport({
-    host: 'mail.publicacoesonline.com.br',
+    host: 'mail.yourhost.com',
     port: '25',
     secure: false,
     ignoreTLS: true,
